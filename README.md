@@ -11,10 +11,13 @@ We extend the text-only mental manipulation benchmark into speech by rendering e
 This enables 1:1 comparisons between text and audio. Models and humans both struggle more on audio, 
 highlighting modality-specific ambiguity and the subjectivity of mental manipulation.
 
-## What’s in this repo?
+## What's in this repo?
 ```
 speech_mentalmanip/
 ├─ README.md                                       # You are here
 ├─ multi_speaker_TTS_audios_generation_scripts/    # TTS by turn
 ├─ prediction/                                     # Model Evaluations
+├─ data_to_annotate/                               # Re-annotation data
+│  ├─ text_only/                                   # Text-only conversations for re-annotation
+│  └─ audio_only/                                  # Audio-only conversations for re-annotation
 ```
