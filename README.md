@@ -17,7 +17,13 @@ speech_mentalmanip/
 ├─ README.md                                       # You are here
 ├─ multi_speaker_TTS_audios_generation_scripts/    # TTS by turn
 ├─ prediction/                                     # Model Evaluations
-├─ data_to_annotate/                               # Re-annotation data
-│  ├─ text_only/                                   # Text-only conversations for re-annotation
-│  └─ audio_only/                                  # Audio-only conversations for re-annotation
+├─ composed_audios_dataset/                        # Composed audio dataset
+│  ├─ text_conversations_mental_manipulative_composed_audios_batch_01.zip
+│  ├─ text_conversations_mental_manipulative_composed_audios_batch_02.zip
+│  └─ text_conversations_non_mental_manipulative_composed_audios.zip
+└─ human_annotations/                              # Human annotation data and results
+   ├─ annotations_audio_compiled.csv              # Compiled audio annotations
+   ├─ annotations_text_compiled.csv               # Compiled text annotations
+   ├─ audio_files/                                 # Audio files used for annotation
+   └─ template/                                    # Annotation templates
 ```
