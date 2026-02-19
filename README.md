@@ -1,9 +1,5 @@
 # Detecting Mental Manipulation in Speech via Synthetic Multi-Speaker Dialogue
-
-Status: Under review
-
-Anonymous artifact link: [https://anonymous.4open.science/r/speech_mentalmanip-E798/](https://anonymous.4open.science/r/speech_mentalmanip-E798)
-
+Accepted at IWSDS 2026
 
 
 ## TL;DR
